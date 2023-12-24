@@ -10,7 +10,7 @@
     "eslint": "eslint --fix './**/*.{js,jsx}'",
     "build": "webpack --mode production",
     "cypress:open": "cypress open -p 8080",
-    "test:e2e": "NODE_ENV=test PORT=5001 node app.js"
+    "test:e2e": "node e2e-run-tests.js"
   },
   "repository": {
     "type": "git",
