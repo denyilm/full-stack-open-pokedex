@@ -9,6 +9,7 @@ const PORT = process.env.PORT || 5000;
 app.use(express.static("dist"));
 // Serve your React application for all routes
 app.get('*', (req, res) => {
+  // eslint-disable-next-line no-undef
   res.sendFile(path.resolve(__dirname, 'dist', 'index.html'));
 });
 
