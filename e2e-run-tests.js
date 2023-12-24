@@ -11,7 +11,7 @@ cypress
     console.log(results)
     if (results.totalFailed > 0) {
         console.error('Tests failed. Exiting with an error.');
-        // eslint-disable-next-line no-console
+        // eslint-disable-next-line no-undef
         process.exit(1); // Exit with a non-zero status code
     }
   })
